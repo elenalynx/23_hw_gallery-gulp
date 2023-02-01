@@ -1,0 +1,15 @@
+{
+  "name": "23_hw_gallery-gulp",
+  "version": "1.0.0",
+  "description": "gallery with gulp",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0"
+  }
+}
