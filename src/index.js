@@ -5,10 +5,10 @@ const FIRST_ALBUM_INDEX = 0;
 
 const containerForAlbums = document.querySelector(ALBUM_LINKS_SELECTOR);
 const containerForPhotos = document.querySelector(PHOTOS_SELECTOR);
-
-containerForAlbums.addEventListener("click", onContainerForAlbumsClick);
-
+console.log(containerForAlbums)
+containerForAlbums.addEventListener("click", this.onContainerForAlbumsClick.bind(this));
 init();
+console.log('ddddfd');
 
 
 function onContainerForAlbumsClick(e) {
